@@ -26,6 +26,14 @@ function App() {
       >
         +1 B
       </button>
+      <button
+        onClick={() => {
+          setCountA(0);
+          setCountB(0);
+        }}
+      >
+        Reset
+      </button>
     </div>
   );
 }
